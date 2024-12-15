@@ -15,3 +15,35 @@ function initMap() {
 
 
 window.initMap = initMap;
+
+function messageSent() {
+  var message = document.getElementById('contactMessage').value;
+  if (message.trim() === "") {
+    alert("Please write a message before sending.");
+    return;
+  }
+  
+
+  setTimeout(function() {
+    document.getElementById('contactForm').reset();
+    document.getElementById('successMessage').style.display = 'block';
+  }, 500); 
+}
+
+function messageSent() {
+  var email = document.getElementById('emailAddressInput').value;
+  var category = document.getElementById('categoryInput').value;
+  var phone = document.getElementById('phoneNumberInput').value;
+  var message = document.getElementById('messageInput').value;
+
+  if (email.trim() === "" || category.trim() === "" || phone.trim() === "" || message.trim() === "") {
+    alert("Please fill out all fields before sending.");
+    return;
+  }
+
+ 
+  setTimeout(function() {
+    document.getElementById('contactForm').reset();
+    document.getElementById('successEmail').style.display = 'block';
+  }, 500); 
+}

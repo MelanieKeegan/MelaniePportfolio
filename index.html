@@ -483,8 +483,8 @@
 
     <!-- Achievements page -->
     <section id="achievements" class="topics" style="border:1px solid">
-      <h4>Year 4</h4>
-      <p>Below are the modules I have taken</p>
+      <h4>Achievements</h4>
+      <p>Here are some of my up to date Achievements</p>
       <div class="row">
         <div class="col-6">
           <!-- Basic Carousel with Controls -->
@@ -567,7 +567,7 @@
 <!-- Contact Us page -->
   <section id="contact" class="topics" style="border:1px solid">
     <h4>Contact Me</h4>
-    <p>We would love to hear from you. Use the contact details below to get in touch..</p><br>
+    <p>I would love to hear from you. Use the contact details below to get in touch with me.</p><br>
 
       <div class="row">
         <!--Our Contact Details-->
@@ -596,8 +596,8 @@
         <div class="col-4">
           <h5>Send us a message</h5>
           <br>
-          <form class="d-grid gap-3">
-            <div class="form-group ">
+          <form id="contactForm" class="d-grid gap-3">
+            <div class="form-group">
               <label for="emailAddressInput" class="form-label">Email address</label>
               <input type="email" class="form-control" id="emailAddressInput" placeholder="name@example.com" required>
             </div>
@@ -605,10 +605,10 @@
               <label for="categoryInput" class="form-label">Category of Inquiry</label>
               <select class="form-control" id="categoryInput" required>
                 <option selected disabled value="">Choose...</option>
-                <option>Membership</option>
-                <option>Classess</option>
-                <option>Prices</option>
-                <option>Personal Trainers</option>
+                <option>Python</option>
+                <option>SQL</option>
+                <option>Website</option>
+                <option>Networking</option>
                 <option>General Inquiry</option>
               </select>
             </div>
@@ -620,12 +620,8 @@
               <label for="messageInput" class="form-label">Type your message here</label>
               <textarea class="form-control" id="messageInput" rows="3" placeholder="Type your message here" required></textarea>
             </div>
-            <div>
-              <button class="btn btn-primary" type="button" onclick="messageSent()">Submit form</button>
-            </div>
+            <button type="button" class="btn btn-primary" onclick="messageSent()">Send Message</button>
           </form>
-          <br>
-          <!-- Alert success after clicking submit-->
           <div id="successEmail" style="display: none;">
             <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
               <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
@@ -642,18 +638,15 @@
             </div>
           </div> <!--End of alert-->
         </div> <!--End of col-->
-
+        
         <div class="col-4">
           <h5>Find us on Google Maps</h5>
           <br>
           <!--The div element for the map -->
           <div id="map"></div>
           <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfR0NPHpi6d7dPKiLugGQK06hvJE4t82M&callback=initMap&libraries=&v=weekly" async></script>
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfR0NPHpi6d7dPKiLugGQK06hvJE4t82M&callback=initMap&libraries=&v=weekly" async></script>
         </div>
-      </div> <!-- End of row-->
-    </section> 
-    <br><br><br><br><br><br><br>
 
     <footer>
       <b>Melanie Keegan 2024</b>
