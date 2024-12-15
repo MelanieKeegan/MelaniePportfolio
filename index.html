@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Melanie Keegan CV page</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- My stylesheet-->
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+  <!-- Font Awesome-->
+  <script src="https://kit.fontawesome.com/08a6076b2a.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-main">
+
+<div class="container">
+
+  <!-- Navigation -->
+  <nav id="navbar-main" class="navbar navbar-dark bg-dark px-3 fixed-top">
+    <a id="homeName" class="navbar-brand" href="#home">Melanie Keegan</a>
+    
+    <ul class="nav nav-pills">  
+      <li class="nav-item">
+        <a class="nav-link" href="#aboutUs">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#experience">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#achievements">Achievements</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Refences">Refences</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contactme">Contact me</a>
+      </li>
+    </ul>
+  </nav>
+
+<!-- Hero Section -->
+<section id="home" class="py-5 text-center">
+  <div class="image-container">
+    <img src="images/linkdinpic.jpg" alt="Melanie Keegan" class="rounded-circle" style="width:150px; height:150px;">
+  </div>
+  <h1 class="my-3">Melanie Keegan</h1>
+  <p>Software Engineer | Problem Solver | Lifelong Learner</p>
+
+  <!-- Social Media Links -->
+  <div class="social-links my-3">
+    <a href="https://www.linkedin.com/in/melaniekeegan" target="_blank" class="mx-2">
+      <i class="fa-brands fa-linkedin fa-2x"></i>
+    </a>
+    <a href="https://github.com/melaniekeegan" target="_blank" class="mx-2">
+      <i class="fa-brands fa-github fa-2x"></i>
+    </a>
+    <a href="https://www.instagram.com" target="_blank" class="mx-2">
+      <i class="fa-brands fa-instagram fa-2x"></i>
+    </a>
+    <a href="mailto:melanie.keegan@example.com" class="mx-2">
+      <i class="fa-solid fa-envelope fa-2x"></i>
+    </a>
+  </div>
+
+  <!-- Download CV and Contact Me Buttons -->
+  <a href="documents/melanie_keegan_cv.pdf" class="btn btn-primary">Download CV</a>
+  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Me</button>
+</section>
+
+<!-- Contact Me Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="contactEmail" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="contactSubject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="contactSubject" placeholder="Enter subject" required>
+          </div>
+          <div class="mb-3">
+            <label for="contactMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="contactMessage" rows="3" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About Us page Example for Appendix-->
+<section id="aboutme" class="topics" style="border:1px solid" >
+  <h4>About Me</h4>
+    <div class="row">
+        <div class="col-4">
+    </div>
+    <div class="col-8" id="aboutmeTextbox">
+          <div class="row">
+            <p> I am Melanie Keeagn and I am a student specializing in Computing at Technological University Dublin 
+               <a href="https://www.tudublin.ie/">Technological University Dublin</a> I have a passion for learning and creating. I am 
+               excited to expand my knowledge of the ICT industry and cultivate new experiences, I have a keen eye for 
+               detail and a dynamic working style. I enjoy experimenting and I am a natural problem solver. 
+
+          <div id="aboutUsAwards" class="row py-4 justify-content-center">
+            <div class="col-3">
+            </div>
+            <div class="col-3">
+            </div>
+            <div class="col-3">
+
+            </div>
+          </div> 
+        </div> 
+      </div> 
+    <br><br>
+    </section>
+<!-- Education Page -->
+<section id="education" class="topics" style="border: 1px solid; margin-bottom: 40px; padding: 20px;">
+  <h4>Education</h4>
+  <p>Current.</p>
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <!-- 4th Year -->
+    <div class="col">
+      <div class="card h-100 fourthYearCard">
+        <div class="card-header bg-dark text-white">4th Year</div>
+        
+        <div class="card-body">
+          <h5 class="card-title">Modules</h5>
+          <p class="card-text"><p>Completed advanced<p><p>coursework in Machine<p>Learning<p>Full-Stack<p>  Deve<p> lopment<p>and <p>Artif<p> icial <p> Intel<p> <p> ligenc<p> <p> e.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3rd Year -->
+    <div class="col">
+      <div class="card h-100 fourthYearCard">
+        <div class="card-header bg-dark text-white">3rd Year</div>
+        
+        <div class="card-body">
+          <h5 class="card-title">Modules</h5>
+          <p class="card-text"><p>Completed advanced<p><p>coursework in Machine<p>Learning<p>Full-Stack<p>  Deve<p> lopment<p>and <p>Artif<p> icial <p> Intel<p> <p> ligenc<p> <p> e.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2nd Year -->
+    <div class="col">
+      <div class="card h-100 fourthYearCard">
+        <div class="card-header bg-dark text-white">2nd Year</div>
+        
+        <div class="card-body">
+          <h5 class="card-title">Modules</h5>
+          <p class="card-text"><p>Completed advanced<p><p>coursework in Machine<p>Learning<p>Full-Stack<p>  Deve<p> lopment<p>and <p>Artif<p> icial <p> Intel<p> <p> ligenc<p> <p> e.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1st Year -->
+    <div class="col">
+      <div class="card h-100 fourthYearCard">
+        <div class="card-header bg-dark text-white">1st Year</div>
+        
+        <div class="card-body">
+          <h5 class="card-title">Modules</h5>
+          <p class="card-text"><p>Completed advanced<p><p>coursework in Machine<p>Learning<p>Full-Stack<p>  Deve<p> lopment<p>and <p>Artif<p> icial <p> Intel<p> <p> ligenc<p> <p> e.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Other Education -->
+<div class="mt-5">
+  <h4>Other Education</h4>
+  <p>Additional Courses and Certs :</p>
+
+  <div class="accordion" id="otherEducationAccordion">
+    <!-- Item 1 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Pre Degree Computing
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#otherEducationAccordion">
+        <div class="accordion-body">
+          <strong>Crumlin College Of Further Education Sep 2020 - Jul 2021</strong>
+          <p>Grade: Overall Distinction</p>
+          </p>Modules taken:</p>
+          </p>Database Methods</p> 
+          </p>Spreadsheet Methods</p> 
+          </p>Information and Communication Systems</p> 
+          </p> Web Authoring</p> 
+          </p>Programming and Design Principles</p>
+          </p>Math's for Information Technology</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Certificate in Data Science
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#otherEducationAccordion">
+        <div class="accordion-body">
+          <strong>Crumlin College Of Further Education Sep 2020 - Jul 2021</strong>
+          <p>Grade: Overall Distinction</p>
+          </p>Modules taken:</p>
+          </p>Database Methods</p> 
+          </p>Spreadsheet Methods</p> 
+          </p>Information and Communication Systems</p> 
+          </p> Web Authoring</p> 
+          </p>Programming and Design Principles</p>
+          </p>Math's for Information Technology</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Advanced JavaScript Bootcamp
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#otherEducationAccordion">
+        <div class="accordion-body">
+          <strong>Crumlin College Of Further Education Sep 2020 - Jul 2021</strong>
+          <p>Grade: Overall Distinction</p>
+          </p>Modules taken:</p>
+          </p>Database Methods</p> 
+          </p>Spreadsheet Methods</p> 
+          </p>Information and Communication Systems</p> 
+          </p> Web Authoring</p> 
+          </p>Programming and Design Principles</p>
+          </p>Math's for Information Technology</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+</section>
+
+<!-- Experience Page -->
+<section id="experience" class="topics" style="border: 1px solid; margin-bottom: 40px; padding: 20px;">
+  <h4>Experience</h4>
+  <p>During my third year of my degree program, I had the pleasure of interning for SAP and for my final year project I have been selected to work with IBM on one of their internal projects:</p>
+  <div class="row">
+    <!-- SAP -->
+    <br>
+    <select id="gallerySelect" class="form-select" aria-label="Default select example" onchange="showGalleryCategoryImages()" style="max-width: 20em;">
+      <option selected>Select Category</option>
+      <option value="1">All</option>
+      <option value="2">SAP</option>
+      <option value="3">IBM</option>
+    </select>
+    <br>
+
+  <div id="SAP">
+    <br>
+    <h5>SAP</h5>
+  
+    <br>
+    <p>Here is some of my Certificates I obtained from SAP during my 8th Month intenrnship with the company.
+    <p> I had the pleasure of working with the HANA Development Team, working with Technologies like ABAP, Eclipes and BTP woeking here has givin me invalueable experience.  
+    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+      <div class="col">
+        <img src="images/SAP.png" class="img-fluid rounded" alt="Gallery 1" onclick="showImage(event);">
+      </div>
+      <div class="col">
+        <img src="images/CSBad.jpg" class="img-fluid rounded" alt="Gallery 2" onclick="showImage(event);">
+      </div>
+      <div class="col">
+        <img src="images/BTPBAD.jpg" class="img-fluid rounded" alt="Gallery 3" onclick="showImage(event);">
+      </div>
+      <div class="col">
+        <img src="images/CSBad.jpg" class="img-fluid rounded" alt="Gallery 2" onclick="showImage(event);">
+      </div>
+    </div>
+  </div>
+  <br>
+  <div id="IBM">
+    <h5>Other Experience</h5>
+    <br>
+    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+      <div class="col">
+        <img src="images/download.png" class="img-fluid rounded" alt="Gallery 4" onclick="showImage(event);">
+      </div>
+      <div class="col">
+        <img src="images/Hackathon.png" class="img-fluid rounded" alt="Gallery 3" onclick="showImage(event);">
+      </div>
+      <div class="col">
+        <img src="images/CompTIA.png" class="img-fluid rounded" alt="Gallery 2" onclick="showImage(event);">
+      </div>
+      <!--<div class="col">
+        <img src="images/gallery1.jpg" class="img-fluid rounded" alt="Gallery 1" onclick="showImage(event);">
+      </div>-->
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="topics" style="border: 1px solid; margin-bottom: 40px; padding: 20px;">
+  <h4>Skills</h4>
+  <p>Here is a summary of my technical skills and their proficiency levels:</p>
+
+  <!-- Skill 1: SQL -->
+  <div class="mb-3">
+    <label for="sqlProgress" class="form-label">SQL</label>
+    <div class="progress" role="progressbar" aria-label="SQL proficiency" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar bg-success" style="width: 25%;">25%</div>
+    </div>
+  </div>
+
+  <!-- Skill 2: Python -->
+  <div class="mb-3">
+    <label for="pythonProgress" class="form-label">Python</label>
+    <div class="progress" role="progressbar" aria-label="Python proficiency" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar bg-success" style="width: 50%;">50%</div>
+    </div>
+  </div>
+
+  <!-- Skill 3: Java -->
+  <div class="mb-3">
+    <label for="javaProgress" class="form-label">Java</label>
+    <div class="progress" role="progressbar" aria-label="Java proficiency" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar bg-success" style="width: 25%;">25%</div>
+    </div>
+  </div>
+
+  <!-- Skill 4: ABAP -->
+  <div class="mb-3">
+    <label for="abapProgress" class="form-label">ABAP</label>
+    <div class="progress" role="progressbar" aria-label="ABAP proficiency" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar bg-success" style="width: 55%;">55%</div>
+    </div>
+  </div>
+
+  <!-- Skill 5: Data Structures -->
+  <div class="mb-3">
+    <label for="dataStructuresProgress" class="form-label">Data Structures</label>
+    <div class="progress" role="progressbar" aria-label="Data Structures proficiency" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar bg-success" style="width: 45%;">45%</div>
+    </div>
+  </div>
+
+  <!-- Skill 6: Algorithms -->
+  <div class="mb-3">
+    <label for="algorithmsProgress" class="form-label">Algorithms</label>
+    <div class="progress" role="progressbar" aria-label="Algorithms proficiency" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar bg-success" style="width: 60%;">60%</div>
+    </div>
+  </div>
+
+  <!-- Add more skills as needed -->
+</section>
+
+
+
+
+    <!-- Classes page -->
+    <section id="projects" class="topics" style="border: 1px solid; padding: 20px;">
+      <h4>Projects</h4>
+      <p>Below are some of the projects I’ve worked on, showcasing my technical skills and creativity:</p>
+    
+      <!-- Tabs -->
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-link active" id="nav-hotel-tab" data-bs-toggle="tab" href="#nav-hotel" role="tab" aria-controls="nav-hotel" aria-selected="true">
+            Hotel Project
+          </a>
+          <a class="nav-link" id="nav-pokeapi-tab" data-bs-toggle="tab" href="#nav-pokeapi" role="tab" aria-controls="nav-pokeapi" aria-selected="false">
+            PokeAPI
+          </a>
+          <a class="nav-link" id="nav-cakes-tab" data-bs-toggle="tab" href="#nav-cakes" role="tab" aria-controls="nav-cakes" aria-selected="false">
+            Cakes Project
+          </a>
+          <a class="nav-link" id="nav-sapchat-tab" data-bs-toggle="tab" href="#nav-sapchat" role="tab" aria-controls="nav-sapchat" aria-selected="false">
+            SAPCHAT
+          </a>
+        </div>
+      </nav>
+    
+      <div class="tab-content" id="nav-tabContent">
+        <!-- Hotel Project -->
+        <div class="tab-pane fade show active" id="nav-hotel" role="tabpanel" aria-labelledby="nav-hotel-tab">
+          <h5>Hotel Project</h5>
+          <p>
+            Designed and developed a hotel management system that streamlines room reservations, customer check-ins, and billing processes. 
+            The project included an admin dashboard for staff to manage bookings and customer records efficiently.
+          </p>
+          <ul>
+            <li>Technologies used: HTML, CSS, JavaScript, and MySQL</li>
+            <li>Implemented real-time booking updates and inventory management</li>
+            <li>Enhanced user experience with an intuitive interface</li>
+          </ul>
+        </div>
+    
+        <!-- PokeAPI -->
+        <div class="tab-pane fade" id="nav-pokeapi" role="tabpanel" aria-labelledby="nav-pokeapi-tab">
+          <h5>PokeAPI</h5>
+          <p>
+            Built a web application that integrates with the PokeAPI to provide detailed information about Pokémon. Users can search for their favorite Pokémon and view their stats, abilities, and type.
+          </p>
+          <ul>
+            <li>Technologies used: React.js, Bootstrap, and RESTful API</li>
+            <li>Implemented dynamic search functionality and responsive design</li>
+            <li>Leveraged API calls to fetch and display Pokémon data</li>
+          </ul>
+        </div>
+    
+        <!-- Cakes Project -->
+        <div class="tab-pane fade" id="nav-cakes" role="tabpanel" aria-labelledby="nav-cakes-tab">
+          <h5>Cakes Project</h5>
+          <p>
+            Created an e-commerce platform for a local bakery, allowing customers to browse and order cakes online. 
+            The project included a shopping cart, payment gateway integration, and an admin portal for managing inventory.
+          </p>
+          <ul>
+            <li>Technologies used: PHP, Laravel, and Stripe API</li>
+            <li>Developed a user-friendly interface for seamless shopping</li>
+            <li>Integrated secure payment processing and real-time order tracking</li>
+          </ul>
+        </div>
+    
+        <!-- SAPCHAT -->
+        <div class="tab-pane fade" id="nav-sapchat" role="tabpanel" aria-labelledby="nav-sapchat-tab">
+          <h5>SAPCHAT</h5>
+          <p>
+            Developed a real-time chat application for internal communication within SAP teams. 
+            The project focused on enabling seamless collaboration, with features like group chats, file sharing, and message encryption.
+          </p>
+          <ul>
+            <li>Technologies used: Node.js, Socket.IO, and MongoDB</li>
+            <li>Implemented end-to-end encryption for secure messaging</li>
+            <li>Enabled group chats with customizable notification settings</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <br>
+
+    <!-- Achievements page -->
+    <section id="achievements" class="topics" style="border:1px solid">
+      <h4>Year 4</h4>
+      <p>Below are the modules I have taken</p>
+      <div class="row">
+        <div class="col-6">
+          <!-- Basic Carousel with Controls -->
+          <div id="trainersCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-bs-target="#trainersCarousel" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#trainersCarousel" data-bs-slide-to="1"></li>
+              <li data-bs-target="#trainersCarousel" data-bs-slide-to="2"></li>
+            </ol>
+
+            <!-- Images -->
+            <div class="carousel-inner">
+            
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="images/Hackathon.png" class="d-block w-100 rounded" alt="Hackathon">
+                <!-- Captions-->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Winning Hackathon</h5>
+                  
+                </div>
+              </div>
+            
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/erp.png" class="d-block w-100 rounded" alt="ERPSIM Event">
+                <!-- Captions-->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>SAP ERPSIM event</h5>
+                  
+                </div>
+              </div>
+            
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/mostE.webp" class="d-block w-100 rounded" alt="Awared Most Easy Going">
+                <!-- Captions-->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Awared Most Easy Going</h5>
+                
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#trainersCarousel" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#trainersCarousel" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div> <!-- Close div for carousel-->
+
+        </div><!-- Close div for col-->
+        <div class="col-6">
+          <p><h3>Hackathon Achievement: Community-Centered Website</h3>
+            During a Hackathon event, I collaborated with a team to develop a dynamic and interactive website for a community center. Our project aimed to foster engagement and collaboration within the community by creating a community forum that allowed members to ask for help, share resources, and connect with each other.
+          </p><h3>ERPSIM Event Winner</h3><strong>What is ERPsim?</strong>
+          ERPsim is a business simulation tool that uses SAP's ERP system in a competitive, gamified environment. Myself any my team mates acted as managers of a virtual company and made decisions across various business functions to achieve the best outcomes. This event simulated real-world business scenarios, such as supply chain management, manufacturing, or financial decision-making. Our team came in first place out of a team of 16.<p>
+          <h3>Awared Most Easy Going</h3>This award represents not only my personal values of kindness and respect but also my commitment to building cohesive, high-functioning teams. By maintaining a positive attitude and fostering a culture of understanding, I’ve contributed to both individual and collective success, helping teams achieve their goals while feeling supported and empowered.
+
+          Receiving this award is a testament to the power of empathy and positivity in creating meaningful connections and driving team performance. It’s a quality I bring to every project, ensuring a harmonious and productive working environment.<p>
+        </div>
+      </div> <!-- Close div for row-->
+
+      <br><br>
+      <p>These achievements collectively highlight my diverse skill set and personal qualities. From fostering community engagement through innovative web development, excelling in strategic decision-making with SAP's ERPsim, to being recognized for my empathy and leadership with the Most Easy Going award, I consistently strive to combine technical expertise with a collaborative and positive mindset. Together, they demonstrate my ability to solve complex challenges, uplift team morale, and drive impactful results in any environment.</p>
+    </section>
+    <br><br>
+    <section id="Refences" class="topics" style="border: 1px solid; margin-bottom: 40px; padding: 20px;">
+      <h4>Refences</h4>
+      <p>Here is a summary of my technical skills and their proficiency levels:</p>
+
+    </section>
+
+
+<!-- Contact Us page -->
+  <section id="contact" class="topics" style="border:1px solid">
+    <h4>Contact Me</h4>
+    <p>We would love to hear from you. Use the contact details below to get in touch..</p><br>
+
+      <div class="row">
+        <!--Our Contact Details-->
+        <div class="col-4">
+          <h5>Me contact details</h5>
+          <br>
+          <div>
+            <ul class="list-group">
+              <li class="list-group-item active" aria-current="true">Location</li>
+              <li class="list-group-item"><i class="fa-solid fa-location-dot"></i>Tallaght</li>
+            </ul>
+            <br><br>
+            <ul class="list-group">
+              <li class="list-group-item active" aria-current="true">Email</li>
+              <li class="list-group-item"><i class="fa-solid fa-envelope"></i> contactus@Melanie.Keegan.90@gmai.com</li>
+            </ul>
+            <br><br>
+            <ul class="list-group">
+              <li class="list-group-item active" aria-current="true">Phone Number</li>
+              <li class="list-group-item"><i class="fa-solid fa-phone"></i>085 666 7772</li>
+            </ul>
+          </div>
+        </div> <!-- End of col -->
+
+        <!-- Form-->
+        <div class="col-4">
+          <h5>Send us a message</h5>
+          <br>
+          <form class="d-grid gap-3">
+            <div class="form-group ">
+              <label for="emailAddressInput" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="emailAddressInput" placeholder="name@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="categoryInput" class="form-label">Category of Inquiry</label>
+              <select class="form-control" id="categoryInput" required>
+                <option selected disabled value="">Choose...</option>
+                <option>Membership</option>
+                <option>Classess</option>
+                <option>Prices</option>
+                <option>Personal Trainers</option>
+                <option>General Inquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="phoneNumberInput" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="phoneNumberInput" placeholder="087 - 5 digits" required pattern="[0-9]{5}">
+            </div>
+            <div class="form-group">
+              <label for="messageInput" class="form-label">Type your message here</label>
+              <textarea class="form-control" id="messageInput" rows="3" placeholder="Type your message here" required></textarea>
+            </div>
+            <div>
+              <button class="btn btn-primary" type="button" onclick="messageSent()">Submit form</button>
+            </div>
+          </form>
+          <br>
+          <!-- Alert success after clicking submit-->
+          <div id="successEmail" style="display: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+              <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+              </symbol>
+            </svg>
+            <div class="alert alert-success alert-dismissible fade show d-flex align-items-center" role="alert">
+              <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+              <div>
+                <h4 class="alert-heading">Email sent!</h4>
+                <p>We will be in touch shortly</p>
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          </div> <!--End of alert-->
+        </div> <!--End of col-->
+
+        <div class="col-4">
+          <h5>Find us on Google Maps</h5>
+          <br>
+          <!--The div element for the map -->
+          <div id="map"></div>
+          <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfR0NPHpi6d7dPKiLugGQK06hvJE4t82M&callback=initMap&libraries=&v=weekly" async></script>
+        </div>
+      </div> <!-- End of row-->
+    </section> 
+    <br><br><br><br><br><br><br>
+
+    <footer>
+      <b>Melanie Keegan 2024</b>
+    </footer>
+
+  </div>
+</div> <!-- Close container -->
+
+  
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- My JavaScript file -->
+<script src="scripts/main.js"></script>
+ 
+  
+</body>
+</html>

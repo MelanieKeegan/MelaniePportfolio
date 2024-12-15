@@ -1,0 +1,64 @@
+/* General Section Styling */
+section {
+    padding: 50px 20px; 
+    margin: 20px 0; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+  }
+  
+  /* Centering the image in the home section */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #000; 
+  }
+  
+  /* About Me content styling */
+  .about-content {
+    font-size: 16px; 
+    line-height: 1.6; 
+    color:#221f1f;
+  }
+  #home {
+    background-image: url('../images/back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: white;
+    text-align: center;
+  }
+  
+  #home * {
+    position: relative;
+    z-index: 2; 
+  }
+  #logo {
+    width: 80px; 
+    height: auto; 
+    margin-right: 10px;  
+    vertical-align: middle; 
+}
+.logo-container {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+#logo {
+  width: 80px; 
+  height: auto;
+  margin-right: 10px; 
+  vertical-align: middle;
+}
+.list-unstyled li {
+  padding: 5px 0; /* Adds spacing between list items */
+}
